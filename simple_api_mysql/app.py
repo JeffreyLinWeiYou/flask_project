@@ -140,7 +140,6 @@ class DeleteUser(Resource):
         except Exception as e:
             return {'error': str(e)}
 
-
 api.add_resource(CreateUser, '/CreateUser')
 api.add_resource(UpdateUser, '/UpdateUser')
 api.add_resource(DeleteUser, '/DeleteUser')
